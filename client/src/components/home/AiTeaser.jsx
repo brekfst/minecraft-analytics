@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, Clock, TrendingUp, AlertTriangle, Users, Zap } from 'lucide-react';
+import { Bot, Clock, TrendingUp, AlertTriangle, Users, Zap } from 'lucide-react';
 
 const AiTeaser = ({ predictions = [] }) => {
   // If no predictions, show a teaser message

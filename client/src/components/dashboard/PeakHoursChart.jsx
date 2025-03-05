@@ -148,17 +148,3 @@ const PeakHoursChart = ({ topServers = [] }) => {
     </div>
   );
 };
-
-// Export all components
-export {
-  ServerDashboardHeader,
-  ServerTrendsWidget,
-  UptimeWidget,
-  AIInsightsWidget,
-  ServerComparisonWidget,
-  ServerManagementWidget,
-  GlobalStatsCards,
-  TopServersTable,
-  RisingServersList,
-  PeakHoursChart
-};

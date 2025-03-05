@@ -1,6 +1,6 @@
 // AIInsightsWidget.jsx
 import React from 'react';
-import { Brain, AlertTriangle, TrendingUp, Users, Zap } from 'lucide-react';
+import { Bot, AlertTriangle, TrendingUp, Users, Zap } from 'lucide-react';
 
 const AIInsightsWidget = ({ insights }) => {
   if (!insights || insights.length === 0) {

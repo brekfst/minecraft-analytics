@@ -1,6 +1,6 @@
 // AdminSidebar.jsx
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { 
   LayoutDashboard, 
   ShieldAlert, 
@@ -11,6 +11,7 @@ import {
 } from 'lucide-react';
 
 const AdminSidebar = ({ stats }) => {
+  const location = useLocation();
   return (
     <div className="bg-white shadow rounded-lg overflow-hidden">
       <div className="p-4 border-b border-gray-200">
